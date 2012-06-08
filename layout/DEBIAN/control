@@ -1,0 +1,10 @@
+Package: net.thekirbylover.dontforget
+Name: DontForget
+Pre-Depends: firmware (>= 4.0)
+Depends: mobilesubstrate
+Version: 2.1~beta2
+Architecture: iphoneos-arm
+Description: Disable device when battery charge is low
+Maintainer: thekirbylover
+Author: thekirbylover
+Section: Tweaks

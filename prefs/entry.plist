@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = DontForget;
+	cell = PSLinkCell;
+	detail = DontForgetListController;
+	icon = DontForget.png;
+	isController = 1;
+	label = DontForget;
+    };
+}

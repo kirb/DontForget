@@ -1,0 +1,8 @@
+#!/bin/bash
+touch /var/mobile/Library/Preferences/net.thekirbylover.dontforget.plist
+chown mobile:mobile /var/mobile/Library/Preferences/net.thekirbylover.dontforget.plist
+if [[ ! -f "/var/mobile/Library/Preferences/net.thekirbylover.dontforget.plist" ]]; then
+    echo "Error: Couldn't create preferences file!" 1&>2
+    exit 1
+fi
+exit 0
